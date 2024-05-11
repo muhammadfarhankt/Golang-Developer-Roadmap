@@ -3,9 +3,9 @@
 ## 1. Learn the Golang fundamentals
 
 - Go Tour: Start with the official Go Tour to get familiar with the language syntax and features. [Visit A Tour of Go to begin.](https://go.dev/tour/welcome/1/)
-- W3Schools: Utilize W3Schools' Go tutorial for a structured introduction to the language. Visit W3Schools Go Tutorial to get started.
+- W3Schools: Utilize W3Schools' Go tutorial for a structured introduction to the language. Visit W3Schools Go Tutorial to get started.[https://www.youtube.com/watch?v=un6ZyFkqFKo&ab_channel=freeCodeCamp.org]
 - Video Tutorials: If you prefer video learning, check out this tutorial from Freecodecamp: Go Programming – Golang Course with Bonus Projects.[https://www.youtube.com/watch?v=un6ZyFkqFKo&ab_channel=freeCodeCamp.org] (Watch the first few chapters up to slices).
-- Learn by doing. Install golang on your system or start by doing Golang Online compilers.
+- Learn by doing. Install golang on your system or start by doing Golang Online compilers.[https://www.programiz.com/golang/online-compiler/]
 - GeeksforGeeks: Dive deeper into Golang fundamentals on [Geeksforgeeks](https://www.geeksforgeeks.org/golang/) for comprehensive learning.
 - Short Variable Declaration: Utilize the short declaration syntax (:=) to declare variables without assigning garbage values. Defaults to zero (0) or false for boolean.
 - Loop Types: Master different loop types including range loops and understand loop approaches (while, do while, infinite loop).
