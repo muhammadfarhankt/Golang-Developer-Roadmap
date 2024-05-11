@@ -2,7 +2,7 @@
 
 ## 1. Learn the Golang fundamentals
 
-- Go Tour: Start with the official Go Tour to get familiar with the language syntax and features. Visit A Tour of Go to begin.
+- Go Tour: Start with the official Go Tour to get familiar with the language syntax and features. [Visit A Tour of Go to begin.](https://go.dev/tour/welcome/1/)
 - W3Schools: Utilize W3Schools' Go tutorial for a structured introduction to the language. Visit W3Schools Go Tutorial to get started.
 - Video Tutorials: If you prefer video learning, check out this tutorial from Freecodecamp: Go Programming – Golang Course with Bonus Projects. (Watch the first few chapters up to slices).
 - Learn by doing. Install golang on your system or start by doing Golang Online compilers.
