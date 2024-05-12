@@ -28,6 +28,7 @@
 - Concurrency vs Parallelism: Differentiate between concurrency and parallelism in the context of Go programming.
 
 ## 3. Learn Web Fundamentals with Golang
+### (Research & Learn following topics in detail. Watch videos & Read documentations / tutorial sites)
 ### URL Structure: Break down the components of a URL (Uniform Resource Locator):
 - Scheme: The protocol (e.g., http:, https:).
 - Host: The domain name or IP address of the server.
