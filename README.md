@@ -61,6 +61,15 @@
 
 ### Develop a Server-Side Login Page:
 
+#### View Engines:
+- With view engines, developers can create dynamic web pages by injecting data from the server-side application logic into predefined HTML templates. This separation of concerns between data and presentation enhances code maintainability and scalability in web projects.
+- Explore view engines and their role in generating dynamic HTML content for web pages.
+- Understand how view engines like HTML templates or server-side rendering frameworks work.
+- Go's standard library provides the html/template package, which offers a robust template engine for generating HTML content.
+- Server-side rendering frameworks like Gin, Echo, or Fiber often integrate seamlessly with view engines, allowing developers to define routes and render templates in a unified manner.
+- View engines in Go typically follow the Model-View-Controller (MVC) pattern, where templates serve as the "view" layer responsible for presenting data to users.
+- Enhances code maintainability by separating data and presentation concerns.
+  
 #### User Authentication:
 - Implement server-side validation for username and password inputs.
 - Verify user credentials against predefined values stored on the server.
