@@ -27,3 +27,58 @@
 - Defer: Understand the defer statement and its role in handling function execution flow.
 - Concurrency vs Parallelism: Differentiate between concurrency and parallelism in the context of Go programming.
 
+## 3. Learn Web Fundamentals with Golang
+### URL Structure: Break down the components of a URL (Uniform Resource Locator):
+- Scheme: The protocol (e.g., http:, https:).
+- Host: The domain name or IP address of the server.
+- Path: The specific resource being requested.
+- Query String: Optional parameters appended to the URL after a question mark (?).
+- Fragment: Optional anchor part within a document (e.g., for scrolling to a specific section).
+### HTTP Fundamentals: Grasp the foundation of web communication:
+- HTTP Protocol: Understand the Hypertext Transfer Protocol, the core protocol for communication between web clients (browsers) and servers. Learn about request methods (GET, POST, PUT, DELETE), request and response headers, and status codes.
+- Stateless vs. Stateful Communication: Differentiate between stateless HTTP requests (independent) and stateful communication (where the server needs to maintain information about a user session across requests).
+### Session Management: Explore techniques for maintaining state in web applications:
+- Sessions: Understand how sessions enable applications to store user-specific data (e.g., login status, preferences) between requests. Learn about different session storage mechanisms like cookies, server-side storage (in-memory or database), or session management frameworks.
+- Cookies: Familiarize yourself with cookies, which are small pieces of data sent by a server and stored on the client-side (user's browser) that can be used to maintain some state information between requests.
+### HTTP Methods: Deepen your understanding of common HTTP request methods:
+- GET: Used to retrieve data from a server (e.g., fetching a web page).
+- POST: Used to submit data to a server (e.g., sending a form submission).
+- PUT: Used to update existing data on a server.
+- DELETE: Used to delete data from a server.
+- Additional Methods: Explore other HTTP methods like PATCH (partial updates), HEAD (retrieve header information only), and OPTIONS (discover server capabilities).
+### HTTP Versions: Understand the different versions of the HTTP protocol and their key features:
+- HTTP/1.1: The most widely used version, supporting persistent connections (keeping connections open for multiple requests).
+- HTTP/2: A more efficient version with features like multiplexing (sending and receiving multiple requests/responses concurrently over a single connection) and header compression.
+### Web Frameworks: Explore popular Go web frameworks that simplify web development:
+- Echo: A high-performance, minimalistic web framework.
+- Gin: A flexible and efficient web framework known for its clean routing syntax.
+- Gorilla: A modular toolkit for building web applications and APIs.
+- Fiber: A high-performance, minimalist web framework with a focus on speed.
+- Many Others: Research additional frameworks like Goji, Martini, and Negroni to find the one that best suits your project's needs. Consider factors like performance, ease of use, feature set, and community support.
+
+## 4. Practice Project: Login System with Session Management
+
+### Develop a Server-Side Login Page:
+
+#### User Authentication:
+- Implement server-side validation for username and password inputs.
+- Verify user credentials against predefined values stored on the server.
+
+#### Session Handling:
+
+- Implement session management to maintain user authentication state.
+- Ensure that sessions persist across requests and expire after a certain period of inactivity.
+
+#### Login Page Functionality:
+
+- Develop a login page that accepts username and password inputs from users.
+- Display appropriate messages for incorrect username or password entries.
+
+#### Home Page Access:
+
+- Grant access to the home page upon successful authentication.
+- Implement a signout button on the home page to log users out and redirect them to the login page.
+
+#### Prevent Back Button Access:
+
+- Implement measures to prevent users from accessing the home page using the browser's back button after signing out.
