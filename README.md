@@ -97,3 +97,5 @@
 
 #### Crack the top 50 Golang interview questions : 
   - https://www.educative.io/blog/50-golang-interview-questions
+
+#### https://medium.com/@nur_islam/go-golang-quick-recap-before-an-interview-abbc27cc2ac0/ 
