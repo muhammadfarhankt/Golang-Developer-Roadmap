@@ -4,6 +4,7 @@
 
 - Go Tour: Start with the official Go Tour to get familiar with the language syntax and features. [Visit A Tour of Go to begin.](https://go.dev/tour/welcome/1/)
 - W3Schools: Utilize W3Schools' Go tutorial for a structured introduction to the language. Visit W3Schools Go Tutorial to get started.[https://www.youtube.com/watch?v=un6ZyFkqFKo&ab_channel=freeCodeCamp.org]
+- Your Master Plan to Learn Golang Fast and Deep (2024 Edition) : https://medium.com/p-society/master-plan-to-learn-golang-edbf85c7ae83
 - Video Tutorials: If you prefer video learning, check out this tutorial from Freecodecamp: Go Programming – Golang Course with Bonus Projects.[https://www.youtube.com/watch?v=un6ZyFkqFKo&ab_channel=freeCodeCamp.org] (Watch the first few chapters up to slices).
 - Learn by doing. Install golang on your system or start by doing Golang Online compilers.[https://www.programiz.com/golang/online-compiler/]
 - GeeksforGeeks: Dive deeper into Golang fundamentals on [Geeksforgeeks](https://www.geeksforgeeks.org/golang/) for comprehensive learning.
