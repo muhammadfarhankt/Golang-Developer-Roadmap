@@ -1,6 +1,10 @@
 # Golang Developer Roadmap
 
-#### Welcome. It's better to learn web fundamentals like HTML, CSS, Bootstrap, Basic Javascript and DOM Manipulations for being a backend developer. Link to those resources.
+### Welcome. Hey everyone! I'm a fellow Golang enthusiast, still on the path to becoming a pro backend developer. This repository is my way of sharing what I've learned so far and creating a space for others like me to learn and grow together. Whether you're just starting out or looking to brush up on your skills, feel free to join the journey!
+
+
+#### Understanding web fundamentals like HTML, CSS, and basic JavaScript can be beneficial for backend developers. This knowledge helps bridge the gap between front-end and back-end functionalities, especially when debugging or troubleshooting issues.
+
 1. **HTML & CSS** https://github.com/muhammadfarhankt/MERN-Stack-Developer-Roadmap/tree/main?tab=readme-ov-file#-1-html-click-for-expanding/
 2. **Bootstrap, Basic Javascript, DOM Manipulation** https://github.com/muhammadfarhankt/MERN-Stack-Developer-Roadmap/tree/main?tab=readme-ov-file#-2-bootstrap-basic-javascript-dom-manipulation-/
 
