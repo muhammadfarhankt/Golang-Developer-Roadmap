@@ -1,6 +1,7 @@
 # Golang Developer Roadmap
 
-## 1. Learn the Golang fundamentals
+<details>
+  <summary><h2>1. Learn the Golang fundamentals(Click for expanding)</h2> </summary>
 
 - Go Tour: Start with the official Go Tour to get familiar with the language syntax and features. [Visit A Tour of Go to begin.](https://go.dev/tour/welcome/1/)
 - W3Schools: Utilize W3Schools' Go tutorial for a structured introduction to the language. Visit W3Schools Go Tutorial to get started.[https://www.youtube.com/watch?v=un6ZyFkqFKo&ab_channel=freeCodeCamp.org]
@@ -16,7 +17,7 @@
 - Initialising a project. `go mod init <project name>`
 - Maps and Structs: Explore Go's map and struct data types, including declaration, manipulation, size, and capacity.
 
-## 2. Now it's time to learn Golang special features
+## 1.1 Now it's time to learn Golang special features
 
 - Understanding Go: Explore the reasons behind Go's creation and its design philosophy.
 - _(underscore) indentifier.
@@ -28,7 +29,11 @@
 - Defer: Understand the defer statement and its role in handling function execution flow.
 - Concurrency vs Parallelism: Differentiate between concurrency and parallelism in the context of Go programming.
 
-## 3. Learn Web Fundamentals with Golang
+</details>
+
+<details>
+  <summary><h2>2. Learn Web Fundamentals with Golang</h2> </summary>
+  
 ### (Research & Learn following topics in detail. Watch videos & Read documentations / tutorial sites)
 ### URL Structure: Break down the components of a URL (Uniform Resource Locator):
 - Scheme: The protocol (e.g., http:, https:).
@@ -58,7 +63,7 @@
 - Fiber: A high-performance, minimalist web framework with a focus on speed.
 - Many Others: Research additional frameworks like Goji, Martini, and Negroni to find the one that best suits your project's needs. Consider factors like performance, ease of use, feature set, and community support.
 
-## 4. Practice Project: Login System with Session Management
+## 2.1 Practice Project: Login System with Session Management
 
 ### Develop a Server-Side Login Page:
 
@@ -93,6 +98,221 @@
 #### Prevent Back Button Access:
 
 - Implement measures to prevent users from accessing the home page using the browser's back button after signing out.
+
+</details>
+
+<details>
+<summary><h2>3. Learn SQL with PostgreSQL</h2></summary>
+
+#### Understanding SQL vs. NoSQL
+- **Relational (SQL) Databases**: Store data in tables with rows and columns.
+  - Examples: PostgreSQL, MySQL.
+- **Non-Relational (NoSQL) Databases**: Store data in various formats like JSON, key-value pairs, graphs, or documents.
+  - Examples: MongoDB, Redis.
+- **Web-scaled**: Learn how databases handle large amounts of data across many servers.
+- **When to Use SQL vs. NoSQL**: SQL for structured data and complex queries, NoSQL for flexible, large-scale data storage.
+
+#### SQL Data Types
+- **null**: Represents missing or undefined data.
+- **bit**: Stores binary values (0 or 1).
+- **int**: Stores integer numbers.
+- **real / float**: Stores floating-point numbers.
+- **char, varchar, text**: Store text data.
+  - `char` is fixed-length.
+  - `varchar` is variable-length.
+  - `text` is for long texts.
+- **boolean**: Stores true/false values.
+- **date, datetime, timestamp**: Store date and time information.
+- **xml/json**: Store XML or JSON data.
+
+#### SQL Operators
+- **Arithmetic**: +, -, *, / (addition, subtraction, multiplication, division).
+- **Logical**: AND, OR, NOT (used in conditions).
+- **Comparison**: =, <>, >, <, >=, <= (comparing values).
+- **Bitwise**: &, |, ^ (operations on binary representations).
+
+#### PostgreSQL-Specific Data Types
+- **interval**: Time intervals.
+- **point**: Geometric points.
+- **bigserial**: Auto-incrementing large integers.
+- **Custom Types**: Create your own data types.
+
+#### Database Fundamentals
+- **Client/Server Model**: The database server manages data, clients connect to perform operations.
+- **Database Cluster**: A collection of databases managed by a single server instance.
+- **Constraints**: Rules to ensure data integrity.
+  - **UNIQUE**: No duplicate values allowed.
+  - **NOT NULL**: Data must be present.
+  - **PRIMARY KEY**: Unique identifier for table rows.
+  - **FOREIGN KEY**: Links to data in another table.
+  - **CHECK**: Custom conditions for data.
+
+#### SQL Commands and Migrations
+- **List Databases**: Show all databases.
+  - Command: `\l` in psql.
+- **Connect to Database**: Use to switch databases.
+  - Command: `\c <dbname>` in psql.
+- **List Tables**: Show all tables in the current database.
+  - Command: `\dt` in psql.
+- **Create Database/Table**: Define new databases and tables.
+  - Example: `CREATE DATABASE <name>;` `CREATE TABLE <name> (...);`.
+- **Drop Database/Table**: Remove databases and tables.
+  - Example: `DROP DATABASE <name>;` `DROP TABLE <name>;`.
+- **Migrations**: Version control for database changes.
+  - **Add/Delete**: Add or remove columns or tables.
+  - **Up/Down Migration**: Apply or rollback changes.
+
+#### SQL Functions and Clauses
+- **SELECT**: Retrieve data from tables.
+- **LIMIT**: Restrict the number of rows returned.
+- **OFFSET**: Skip a number of rows before returning the data.
+- **AS**: Rename columns or tables in the result set.
+- **DISTINCT**: Return unique values only.
+- **GROUP BY**: Group rows that have the same values in specified columns.
+- **HAVING**: Filter groups based on conditions.
+- **JOIN**: Combine rows from multiple tables.
+  - **INNER JOIN**: Only matching rows.
+  - **LEFT JOIN**: All rows from the left table, with matching rows from the right.
+  - **RIGHT JOIN**: All rows from the right table, with matching rows from the left.
+  - **FULL JOIN**: All rows when there is a match in either table.
+- **WHERE**: Filter rows based on conditions.
+- **ORDER BY**: Sort rows by specified columns.
+
+#### Views and Indexes
+- **Views**: Virtual tables created from queries.
+  - **CREATE VIEW**: Define a view.
+  - **Materialized View**: Stores results of the view query.
+- **Indexes**: Speed up searches by creating a fast lookup.
+  - **AUTO_INCREMENT**: Automatically increment values for a primary key.
+
+#### Advanced SQL Functions
+- **Aggregate Functions**: Perform calculations on sets of values.
+  - Examples: `AVG`, `SUM`, `MIN`, `MAX`, `COUNT`.
+- **Scalar Functions**: Operate on individual values.
+  - Examples: `UPPER`, `CONCAT`, `SUBSTR`.
+
+#### SQL Commands Categories
+- **DDL (Data Definition Language)**: Commands to define database structure.
+  - Examples: `CREATE`, `ALTER`, `DROP`, `TRUNCATE`.
+- **DML (Data Manipulation Language)**: Commands to manipulate data.
+  - Examples: `INSERT`, `SELECT`, `UPDATE`, `DELETE`.
+- **DCL (Data Control Language)**: Commands to control access to data.
+  - Examples: `GRANT`, `REVOKE`.
+- **TCL (Transaction Control Language)**: Commands to manage transactions.
+  - Examples: `COMMIT`, `ROLLBACK`, `SAVEPOINT`.
+- **DQL (Data Query Language)**: Command to query data.
+  - Example: `SELECT`.
+
+#### 3-Schema Architecture
+- **Internal Level**: Physical storage structure.
+- **Conceptual Level**: Logical structure of the entire database.
+- **External Level**: Individual user views.
+
+#### Database Normalization
+- **Normalization Levels**: Organize data to reduce redundancy.
+  - Levels: 1NF, 2NF, 3NF, BCNF.
+- **Anomalies**: Problems like insertion, deletion, or update issues.
+
+#### Relationships and Transactions
+- **One-to-One, One-to-Many, Many-to-Many**: Types of relationships between tables.
+- **Transactions**: Group of SQL statements executed as a unit.
+  - **ACID Properties**: Ensure reliability.
+    - **Atomicity**: All-or-nothing.
+    - **Consistency**: Data remains consistent.
+    - **Isolation**: Concurrent transactions do not interfere.
+    - **Durability**: Once committed, changes are permanent.
+
+#### Performance Optimization
+- **EXPLAIN**: Analyze query performance.
+  - **Heap Scan**: Read rows from a table in no particular order.
+  - **Parallel Scan**: Multiple processes scan the table concurrently.
+
+</details>
+
+<details>
+<summary><h2>4. Create SQL CRUD REST API with Golang</h2></summary>
+
+#### Project Setup
+- **Initialize Project**: Create a new Go module for your project.
+  - Command: `go mod init <project-name>`.
+- **Dependencies**: Install necessary packages for SQL and HTTP handling.
+  - Example: `go get github.com/jackc/pgx/v4` for PostgreSQL.
+  - Example: `go get github.com/gin-gonic/gin` for HTTP routing.
+
+#### Database Integration
+- **Connect to PostgreSQL**: Use a connection string to link your Go application to the PostgreSQL database.
+  - Example: `pgx.Connect(context.Background(), "postgres://username:password@localhost:5432/dbname")`.
+- **Database Models**: Define Go structs to map to your database tables.
+  - Example:
+    ```go
+    type User struct {
+        ID       int       `json:"id"`
+        Username string    `json:"username"`
+        Password string    `json:"password"`
+    }
+    ```
+- **ORM Library**: Use GORM or another ORM for easier database interactions.
+  - Example: `go get gorm.io/gorm`.
+
+#### CRUD Operations
+- **Create (INSERT)**: Add new records to the database.
+  - Example:
+    ```go
+    db.Exec("INSERT INTO users (username, password) VALUES ($1, $2)", username, password)
+    ```
+- **Read (SELECT)**: Retrieve records from the database.
+  - Example:
+    ```go
+    rows, err := db.Query("SELECT id, username FROM users")
+    ```
+- **Update (UPDATE)**: Modify existing records in the database.
+  - Example:
+    ```go
+    db.Exec("UPDATE users SET password=$1 WHERE id=$2", newPassword, userID)
+    ```
+- **Delete (DELETE)**: Remove records from the database.
+  - Example:
+    ```go
+    db.Exec("DELETE FROM users WHERE id=$1", userID)
+    ```
+- **Validation**: Ensure data is correct before saving to the database.
+  - Example: Check for empty fields or invalid data formats.
+
+#### Routing and HTTP Methods
+- **Define Routes**: Set up endpoints for each CRUD operation using a web framework like Gin.
+  - Example:
+    ```go
+    router.POST("/users", createUser)
+    router.GET("/users/:id", getUser)
+    router.PUT("/users/:id", updateUser)
+    router.DELETE("/users/:id", deleteUser)
+    ```
+- **HTTP Methods**: Use appropriate HTTP methods for corresponding operations.
+  - **GET**: Retrieve data.
+  - **POST**: Create new data.
+  - **PUT**: Update existing data.
+  - **DELETE**: Remove data.
+
+#### Session Management
+- **User Authentication**: Verify users and manage sessions using tokens or sessions.
+  - Example: Use JWT (JSON Web Tokens) for stateless authentication.
+- **Middleware**: Use middleware to handle authentication and session management.
+  - Example: 
+    ```go
+    router.Use(AuthMiddleware())
+    ```
+
+#### Testing
+- Use Postman or cURL for manual testing of your API endpoints.
+
+#### Documentation
+- **API Documentation**: Use Swagger or similar tools to document your API.
+  - Example: Generate API documentation from annotations in your code.
+- **Setup Instructions**: Provide clear setup and usage guidelines in your README.
+  - Example: Step-by-step instructions for setting up the project and running it locally.
+
+</details>
+
 
 
 #### Crack the top 50 Golang interview questions : 
