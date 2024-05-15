@@ -8,6 +8,8 @@
 1. **HTML & CSS** https://github.com/muhammadfarhankt/MERN-Stack-Developer-Roadmap/tree/main?tab=readme-ov-file#-1-html-click-for-expanding/
 2. **Bootstrap, Basic Javascript, DOM Manipulation** https://github.com/muhammadfarhankt/MERN-Stack-Developer-Roadmap/tree/main?tab=readme-ov-file#-2-bootstrap-basic-javascript-dom-manipulation-/
 
+#### Research & Learn following topics in detail. Watch videos & Read documentations / tutorial sites.
+
 <details>
   <summary><h2>1. Learn the Golang fundamentals(Click for expanding)</h2> </summary>
 
@@ -42,7 +44,6 @@
 <details>
   <summary><h2>2. Learn Web Fundamentals with Golang</h2> </summary>
   
-### (Research & Learn following topics in detail. Watch videos & Read documentations / tutorial sites)
 ### URL Structure: Break down the components of a URL (Uniform Resource Locator):
 - Scheme: The protocol (e.g., http:, https:).
 - Host: The domain name or IP address of the server.
