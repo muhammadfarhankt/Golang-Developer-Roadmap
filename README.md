@@ -322,7 +322,7 @@
 
 </details>
 
-
+### [Data Structures and Algorithms Roadmap. 3 Weeks](https://github.com/muhammadfarhankt/Data-Structures-Algoithms-Resource-for-Beginners/)
 
 #### Crack the top 50 Golang interview questions : 
   - https://www.educative.io/blog/50-golang-interview-questions
