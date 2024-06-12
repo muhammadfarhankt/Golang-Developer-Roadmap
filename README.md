@@ -20,6 +20,7 @@
 - Learn by doing. Install golang on your system or start by doing Golang Online compilers.[https://www.programiz.com/golang/online-compiler/]
 - GeeksforGeeks: Dive deeper into Golang fundamentals on [Geeksforgeeks](https://www.geeksforgeeks.org/golang/) for comprehensive learning.
 - Short Variable Declaration: Utilize the short declaration syntax (:=) to declare variables without assigning garbage values. Defaults to zero (0) or false for boolean.
+- [Golang if else Statements](https://www.scalent.io/golang/golang-if-else-statement/)
 - Loop Types: Master different loop types including range loops and understand loop approaches (while, do while, infinite loop).
 - Arrays vs Slices: Differentiate between arrays and slices, focusing on capacity management and slice behavior on overflow. Understand that slices are built on top of arrays and provide a more flexible way to work with data collections. When a slice's capacity is exceeded, Go automatically doubles the underlying array's size to accommodate additional elements. This dynamic resizing ensures efficient memory usage and allows slices to grow dynamically as needed.
 - Strings in Go: Learn about the string data type, byte vs rune, immutability, and string manipulation techniques.
@@ -32,9 +33,12 @@
 - Understanding Go: Explore the reasons behind Go's creation and its design philosophy.
 - _(underscore) indentifier.
 - Packages and Modules: Understand Go's package system, including importing/exporting packages. Practice writing functions in other packages and importing them. Remember to capitalize function names for exporting.
+- [Multi-Platform Builds with go build](https://www.scalent.io/golang/go-build/)
+- [Golang Type Casting or Conversion – Detailed Guide](https://www.scalent.io/golang/golang-type-casting/)
 - Error Handling: Treat errors as a data type and learn effective error handling techniques.
 - Understand following new vs make, GO Path and GO Root
 - Goroutines and Channels: Learn about Go's powerful concurrency features, including goroutines and channels.
+- [For loop in Golang - A complete guide](https://www.scalent.io/golang/for-loop-in-golang/)
 - OOP Concepts in Go: Understand how Go implements object-oriented programming (OOP) concepts and whether it follows OOP or procedural programming (POP) paradigms.
 - Defer: Understand the defer statement and its role in handling function execution flow.
 - Concurrency vs Parallelism: Differentiate between concurrency and parallelism in the context of Go programming.
@@ -84,6 +88,8 @@
 - Server-side rendering frameworks like Gin, Echo, or Fiber often integrate seamlessly with view engines, allowing developers to define routes and render templates in a unified manner.
 - View engines in Go typically follow the Model-View-Controller (MVC) pattern, where templates serve as the "view" layer responsible for presenting data to users.
 - Enhances code maintainability by separating data and presentation concerns.
+
+#####  We or in general Go community, frameworks are typically avoided due to the language's emphasis on simplicity, performance, and flexibility. Instead, we design architectures tailored to each project's needs, importing only necessary packages to ensure simplicity and optimal performance.
   
 #### User Authentication:
 - Implement server-side validation for username and password inputs.
@@ -107,7 +113,7 @@
 #### Prevent Back Button Access:
 
 - Implement measures to prevent users from accessing the home page using the browser's back button after signing out.
-
+  
 </details>
 
 <details>
@@ -324,7 +330,13 @@
 
 ### [Data Structures and Algorithms Roadmap. 3 Weeks](https://github.com/muhammadfarhankt/Data-Structures-Algoithms-Resource-for-Beginners/)
 
-#### Crack the top 50 Golang interview questions : 
-  - https://www.educative.io/blog/50-golang-interview-questions
+### [Golang select Statement: A Comprehensive Guide](https://www.scalent.io/golang/golang-select-statement/)
 
-#### https://medium.com/@nur_islam/go-golang-quick-recap-before-an-interview-abbc27cc2ac0/ 
+## Must Watch
+#### [Concurrency is not Parallelism by Rob Pike](https://www.youtube.com/watch?v=oV9rvDllKEg&t=43s&ab_channel=gnbitcom)
+
+- Crack the top 50 Golang interview questions : https://www.educative.io/blog/50-golang-interview-questions
+
+- https://medium.com/@nur_islam/go-golang-quick-recap-before-an-interview-abbc27cc2ac0/ 
+- https://levelup.gitconnected.com/how-to-run-goroutines-in-a-sequence-6f3c729b13ec
+
