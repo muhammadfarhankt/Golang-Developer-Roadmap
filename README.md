@@ -331,7 +331,9 @@
 
 </details>
 
-### [Data Structures and Algorithms Roadmap. 3 Weeks](https://github.com/muhammadfarhankt/Data-Structures-Algoithms-Resource-for-Beginners/)
+### [Data Structures and Algorithms Roadmap.](https://github.com/muhammadfarhankt/Data-Structures-Algoithms-Resource-for-Beginners/)
+
+#### https://www.calhoun.io/lets-learn-algorithms
 
 ### [Golang select Statement: A Comprehensive Guide](https://www.scalent.io/golang/golang-select-statement/)
 
