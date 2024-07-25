@@ -345,4 +345,6 @@
 - https://medium.com/@nur_islam/go-golang-quick-recap-before-an-interview-abbc27cc2ac0/ 
 - https://levelup.gitconnected.com/how-to-run-goroutines-in-a-sequence-6f3c729b13ec
 - https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c
-- Stripe Payment - Freecodecamp :	https://www.youtube.com/watch?v=akosxcqJorU&ab_channel=freeCodeCamp.org/ 
+- Stripe Payment - Freecodecamp :	https://www.youtube.com/watch?v=akosxcqJorU&ab_channel=freeCodeCamp.org/
+- https://one2n.io/sre-bootcamp/sre-bootcamp-exercises
+- https://one2n.io/go-bootcamp
